@@ -12,7 +12,7 @@
         </button>
       </section>
 
-      <section class="content" v-if="listObj.showItems">
+      <section class="list-card__content" v-if="listObj.showItems">
         <div
           v-for="listItems of listObj.items"
           :key="listItems.itemName"
