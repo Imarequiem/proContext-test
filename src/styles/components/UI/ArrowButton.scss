@@ -1,0 +1,11 @@
+.arrow-btn {
+  display: inline-block;
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  transform: rotate(0.75turn);
+}
+.closed {
+  transform: rotate(0.25turn);
+}
